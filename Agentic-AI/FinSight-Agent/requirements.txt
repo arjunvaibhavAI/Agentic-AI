@@ -1,8 +1,0 @@
-langgraph
-langchain
-langchain_community
-python-dotenv
-langchain-groq
-langchain_tavily
-yfinance
-streamlit
