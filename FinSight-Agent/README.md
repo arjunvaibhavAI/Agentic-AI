@@ -1,29 +1,25 @@
-# FinSight Agent: Agentic AI for Finance & General Queries
+# FinSight-Agent | AI-Powered Financial Insight Assistant
+A business intelligence tool designed to provide real-time financial insights and market updates through a conversational interface.
 
-FinSight Agent is an **Agentic AI assistant** that answers **finance-related** and **general knowledge** questions by intelligently selecting the right tools.  
-It uses a Large Language Model (LLM) with integrated search and finance APIs for accurate, real-time insights.
+## Business Problem
+Business decision-makers, finance teams, and investors often rely on multiple platforms to track market trends, sector news, and financial updates. This results in:
+- Time lost in manual research across different sources
+- Delayed decision-making due to scattered information
+- Increased dependency on analysts for basic data retrieval
+- Lack of quick insights during client meetings or sales discussions in financial domains
 
-## Features
-- Real-time financial news from Yahoo Finance & Tavily Search.
-- Multi-tool agent for both finance and general knowledge.
-- Simple, interactive UI.
+## Solution Approach
+To address these inefficiencies, I developed FinSight-Agent — an AI-powered assistant that:
+- Consolidates financial news and market data from multiple sources
+- Allows users to ask queries in plain English (e.g., “Latest news affecting the banking sector”)
+- Provides instant, structured market updates to support decision-making
+- Acts as a real-time intelligence layer that can be used in client discussions, sales consultations, or internal financial analysis
 
-## Tech Stack
-- **Python**, **LangChain**, **LangGraph**
-- **Streamlit** (UI)
-- **Groq LLM**
-- **YahooFinanceNewsTool**, **TavilySearch**
-- `.env`-based configuration for API keys
+This project demonstrates how technology can be used to improve business intelligence workflows and enhance productivity for professionals engaged in financial sales, advisory, or client-facing roles.
 
-## Setup
-```bash
-git clone https://github.com/<your-username>/FinSight-Agent.git
-cd FinSight-Agent
-python -m venv .venv
-source .venv/bin/activate      # Mac/Linux
-.venv\Scripts\activate         # Windows
-pip install -r requirements.txt
-Create .env
-GROQ_API_KEY=your_groq_api_key
-TAVILY_API_KEY=your_tavily_api_key
-Run: streamlit run app.py
+## Technology Used
+- Python & LangChain
+- Streamlit (User Interface)
+- Groq LLM (For fast real-time generation)
+- Market & News APIs (Data Aggregation)
+
